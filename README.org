@@ -1,0 +1,38 @@
+#+TITLE: PY.PY
+
+An exercise in minimalism.
+
+* Installation
+
+** With Pipenv
+
+1. Install Pipenv. It'll help you keep track of Python versions and Python packages.
+2. Run the following commands
+
+#+BEGIN_SRC
+make pipenv_install
+pipenv shell
+#+END_SRC
+
+** With Docker
+
+1. Install Docker
+2. Run the following commands
+
+#+BEGIN_SRC
+make docker_build
+make docker_run
+#+END_SRC
+
+* Running
+
+#+BEGIN_SRC
+./py.py
+make test
+#+END_SRC
+
+* Development
+
+#+BEGIN_SRC
+make format
+#+END_SRC
